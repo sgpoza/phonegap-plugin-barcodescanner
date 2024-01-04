@@ -875,7 +875,6 @@ parentViewController:(UIViewController*)parentViewController
                        initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
                        target:(id)self
                        action:@selector(cancelButtonPressed:)
-                       setValue:@"Cancelar"
                        ];
 
     id flexSpace = [[UIBarButtonItem alloc]
